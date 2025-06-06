@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Partition</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+      padding: 20px;
+      background: url('.png') no-repeat center top;
+      background-size: contain;
+      height: 900px;
+      user-select: none;
+    }
+    #info {
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+    svg {
+      display: block;
+      margin: auto;
+      background: transparent;
+    }
+    circle {
+      cursor: pointer;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+<body>
+<!--img src="musique.png"-->
+<svg id="partition" width="1000" height="850"></svg>
+<div id="légende">Légende:</div>
+
+  <div>Plus la note est grande, plus la personne joue d'instruments.</div>
+  <div>Chaque forme de notes est liée à la tranche d'âge de la personne.</div>
+  <div>"♬" 0 (inconnue) moins de 18</div>
+  <div>"♩" 18-30 ans</div>
+  <div>"♪" 30-45 ans</div>
+  <div>"♫" 45-60 ans</div>
+
+<div id="info">Cliquez sur une note pour voir les infos</div>
+
+<script src="p.js"></script>
+
+</body>
+</html>

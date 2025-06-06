@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="v.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <script>
+    let osc;
+    function setup() {
+      createCanvas(400, 400);
+      osc = new p5.Oscillator('sine');
+      osc.start();
+      osc.amp(0);
+    }
+
+    function mousePressed() {
+      let freq = map(mouseY, 0, height, 800, 150);
+      osc.freq(freq);
+      osc.amp(0.3, 0.1);
+    }
+
+    function mouseReleased() {
+      osc.amp(0, 0.1);
+    }
+  </script>
+</body>
+</html>
