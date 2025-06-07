@@ -1,0 +1,38 @@
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.center-circle {
+  fill: #222;
+  stroke: #444;
+  stroke-width: 2;
+}
+
+.labels-group text {
+  font-size: 12px;
+  fill: #fff;
+  text-shadow: 1px 1px 2px #000;
+  pointer-events: none;
+}
+#info-box {
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  background-color: #222;
+  border: 1px solid #555;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+  min-height: 30px;
+  transition: all 0.3s ease;
+  top: 20px;
+}
