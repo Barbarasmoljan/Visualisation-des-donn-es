@@ -94,3 +94,5 @@ La Sonothèque:
 
 * https://lasonotheque.org/didgeridoo-s0296.html
 
+# 4) Vinyle interactif 
+Cette visualisation présente un vinyle interactif. Le vinyle est animé et il est possible de l'actionner en cliquand sur une zone colorée. Il met en scène deux image en .png. L'une représentant un grammophone et une image de chien. En arrière-plan de ce vinyle, sont mise en scène des notes de musique qui bouge de manière fluide et en continu.
