@@ -17,29 +17,29 @@ Liste de chaque variable et leur définition:
 
 -Instrument : Quels types d’instruments jouent-ils.
 
--Apprentissage : De quelle manière les répondants ont appris à jouer de la musique/le chant.
+-Apprentissage : Est-ce que les répondants ont appris par le passé de la musique/du chant.
 
--Difficultés : À quel point il a été difficiles pour les répondants d’apprendre à jouer//chanter.
+-Difficultés : À quel point il a été difficiles pour les répondants d’apprendre à jouer/chanter.
 
--Aide : 
+-Aide : Qu'est-ce qui aiderait à s'y remettre
 
--StyleMusic : Quel style de musique apprécient ?jouent ? les répondants.
+-StyleMusic : Quel style de musique apprécient/jouent les répondants.
 
--Intérêts : 
+-Intérêts : Intérêt à apprendre.
 
 -Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances apprises.
 
 -Accompagnement :
 
--CoursEnLigne : 
+-CoursEnLigne : Que veulent-ils apprendre.
 
--Avantages :
+-Avantages : Avantages des cours selon les répondants.
 
 -DifficultésLearn : Quels ont été les difficultés d’apprentissage pour les répondants.
 
 -IntérêtFormationEnLigne : Est-ce que les répondants ont un intérêts à suivre des cours en ligne.
 
--Remarque Supplémentaire :
+-Remarque Supplémentaire : Réponses supplémentaires des répondants.
 
 -TypeInstrument : Code numérique pour la variable Instrument. Chaque numéro correspond à un type d’instrument (par ex. instruments à cordes.)
 
