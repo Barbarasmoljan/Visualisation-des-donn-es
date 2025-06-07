@@ -64,11 +64,8 @@ Toutefois, les autres informations ne sont pas affichées dans cette visualisati
 
 # 3) Voronoï : (fichier v.html et v.js)
 Cette visualisation combine à la fois les libraries *D3* et *P5* et est basée sur le code mis en lien en tout début du code (fichier v.js). En allant avec la souris (hover) sur les formes géométriques, on peut afficher les informations de chaque individu. Chaque forme géométrique correspond à un répondant lié à son ID. Le fait que les formes soient plus ou moins proches de leurs voisins les plus directs montre qu'ils sont similaires. En cliquant sur les opposés en diagonale, on peut remarquer que les informations sont totalement opposées. L'angle N-W joue le moins d'instrument différent, l'angle S-E joue le plus d'instrument différent. L'angle N-E concerne les individus les plus âgés et l'angle S-W, les plus jeunes. Qui plus est, contrairement à la visualisation de partition, ce voronoï, est cantonné plus strictement à son canevas, en raison de la nécessité de rendre cohérent le code pour *P5* et *D3* qui sont parfois contradictoires. C’était le cas par exemple du camembert où l’usage de *P5* pour visualiser le son a été abandonné, car l’un fonctionnait, et le second non.
-Quant aux données non visibles, puis
+Quant aux données non visibles, elles concernent surtout celles qui ne sont pas affichées dans le descriptif en survol. On ignore quel type d'instrument un individu joue ainsi que les détails de son parcous.
 Si cette visualisation a été conservée, c'est parce qu'elle allie deux librairies différentes, mais qui peuvent s'avérer utiles selon le type de visualisation souhaité.
-
-Voronoï, dont l'angle N-W joue le moins d'instrument différent, et l'angle S-E joue le plus d'instrument différent.
-L'angle N-E concerne les individus les plus âgés et l'angle S-W, les plus jeunes.
 
 # Crédits
 
