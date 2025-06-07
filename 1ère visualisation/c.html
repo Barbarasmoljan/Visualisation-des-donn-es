@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Camembert</title>
-</head>
-<body>
-
-    
-    <img class="svg" id="note" data-src="8thNote.svg">
-    <style>
-body {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Camembert</title>
+  <style>
+    body {
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: rgb(34, 35, 36);
+      font-family: Arial, sans-serif;
+      color: white;
     }
+
     #visualizer {
       position: absolute;
       top: 0;
@@ -24,29 +22,63 @@ body {
       height: 100%;
       z-index: -1;
     }
+
     svg {
       position: absolute;
       top: 0;
       left: 0;
       z-index: 1;
     }
+
     .label {
       font-size: 14px;
       fill: white;
       text-anchor: middle;
       pointer-events: none;
     }
+
+    .legend {
+      position: absolute;
+      top: 600px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 15px;
+      border-radius: 8px;
+      z-index: 2;
+    }
+
+    .legend-item {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-color {
+      width: 16px;
+      height: 16px;
+      border-radius: 3px;
+      display: inline-block;
+    }
   </style>
+</head>
+<body>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
-    <script defer type ="module" src="c2.js"></script>
-    
-<canvas id="visualizer"></canvas>
+  <div class="legend">
+     <div>Survolez les arcs du camembert</div>
+    <div class="legend-item"><span class="legend-color" style="background-color:#fc8d62;"></span> Corde</div>
+    <div class="legend-item"><span class="legend-color" style="background-color:#66c2a5;"></span> Vent</div>
+    <div class="legend-item"><span class="legend-color" style="background-color:#e78ac3;"></span> Percussions</div>
+    <div class="legend-item"><span class="legend-color" style="background-color:#8da0cb;"></span> Chant</div>
+    <div class="legend-item"><span class="legend-color" style="background-color:#a6d854;"></span> Autre</div>
+  </div>
 
+  <img class="svg" id="note" data-src="8thNote.svg">
+  <canvas id="visualizer"></canvas>
   <svg id="chart"></svg>
-  <!--button onclick="updatePie('TypeInstrument')">TypeInstrument & cliquez ici pour démarrer le son sur le camembert</button-->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <script defer type="module" src="c2.js"></script>
 </body>
 </html>

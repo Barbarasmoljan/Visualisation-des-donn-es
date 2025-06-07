@@ -1,7 +1,7 @@
 
 // Dimensions
-const width = 800;
-const height = 600;
+const width = 1500;
+const height = 600;//à caliber avec le camembert
 const radius = 250;
 
 // Création du SVG
@@ -10,10 +10,10 @@ const svg = d3.select("body").append("svg")
   .attr("height", height);
 
 const group = svg.append("g")
-  .attr("transform", `translate(${width / 2}, ${height / 2})`);
+  .attr("transform", "translate(1060,300)")//`translate(${width / 1}, ${height / 1})`);//Pour déplacer le camembert
 
-// Infos instruments
-const instrumentMeta = {
+// nos données instruments
+const infoInstrument = {//ATTENTION LES NUMéROS ATTRIBUéS NE DOIVENT PAS BOUGER
   1: { name: "Corde", sound: "1.mp3" },
   2: { name: "Vent", sound: "2.mp3" },
   3: { name: "Percussions", sound: "3.mp3" },
@@ -21,12 +21,12 @@ const instrumentMeta = {
   5: { name: "Autre", sound: "5.mp3" },
 };
 
-// Charger les sons
+// les sons à charger
 const sounds = {};
-for (const [key, meta] of Object.entries(instrumentMeta)) {
+for (const [key, meta] of Object.entries(infoInstrument)) {
   sounds[+key] = new Audio(meta.sound);
 }
-
+//Nos données csv
 d3.csv("data.csv").then(function(data) {
   const counts = new Map();
   const instrumentsByType = {};
@@ -50,7 +50,7 @@ d3.csv("data.csv").then(function(data) {
     });
   });
 
-  // Convertir sets en tableaux
+  // tableau
   for (const key in instrumentsByType) {
     instrumentsByType[key] = Array.from(instrumentsByType[key]);
   }
@@ -62,7 +62,7 @@ d3.csv("data.csv").then(function(data) {
   const arc = d3.arc().innerRadius(80).outerRadius(radius);
   const color = d3.scaleOrdinal(d3.schemeSet2);
 
-  // Dessiner le camembert
+  //Dessiner le camembert
   group.selectAll("path")
     .data(pie(pieData))
     .enter()
@@ -75,14 +75,14 @@ d3.csv("data.csv").then(function(data) {
       d3.select(this).transition().duration(200).attr("transform", "scale(1.05)");
 
       const type = d.data.type;
-      const meta = instrumentMeta[type];
+      const meta = infoInstrument[type];
 
       if (meta && sounds[type]) {
         sounds[type].currentTime = 0;
         sounds[type].play();
       }
 
-      // Texte au centre
+      // Texte centre
       group.selectAll(".label").remove();
       group.append("text")
         .attr("class", "label")
@@ -92,9 +92,9 @@ d3.csv("data.csv").then(function(data) {
         .style("fill", "white")
         .text(`${meta?.name} (${((d.data.count / total) * 100).toFixed(1)}%)`);
 
-      // Rectangle dépliant à gauche
-      d3.select("#info-rect").remove();  // Supprime l'ancien rectangle
-      d3.select("#info-text").remove();
+// Rectangle en haut, à gauche
+      d3.select("#info-rect").remove();  // supprime le précédent rectanlge
+      d3.select("#info-text").remove(); //et l'info
 
       const infoGroup = svg.append("g").attr("id", "info-group");
 
@@ -111,7 +111,7 @@ d3.csv("data.csv").then(function(data) {
         .attr("ry", 10)
         .style("opacity", 0.8);
 
-      // Liste instruments
+// Liste instruments
       const instruments = instrumentsByType[type] || ["Aucun instrument listé"];
 
       infoGroup.append("text")
@@ -131,6 +131,7 @@ d3.csv("data.csv").then(function(data) {
         .text(d => d);
 
     })
+//Le son s'arrête que si on le met en pause en enlevant la souris.
     .on("mouseout", function(event, d) {
       d3.select(this).transition().duration(200).attr("transform", "scale(1)");
 
