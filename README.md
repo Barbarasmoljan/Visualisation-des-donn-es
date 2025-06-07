@@ -3,7 +3,7 @@
 L’objectif de ce travail de visualisations est d’illustrer les données récoltées durant le questionnaire tout en les mettant en perspective. Le questionnaire porte en lui-même sur les pratiques musicales des répondants ainsi que sur d’autres questions connexes telles que les difficultés d’apprentissage et leur éventuelle volonté d'apprendre à jouer/chanter via des cours en ligne.
 
 
-# Contexte du sondage
+## Contexte du sondage
 
 Pour la création du sondage, l’idée était de comprendre le parcours musical des gens, en se focalisant tout particulièrement sur ces points : besoins en musique, les motivations des gens et les obstacles rencontrés pour ceux qui débutent, reprendre ou approfondir un pratique musicale. À cet effet, un sondage a été créé sur *Google Forms*, puis partagé pour collecter les témoignages. 
 
