@@ -54,7 +54,7 @@ Dans le cadre du champ disciplinaire ISH et du champ d’études en Musicologie,
 Nous avons choisi celles-ci pour des raisons expérimentales : nous découvrons plus concrètement l’usage de D3.js avec ces rendus, mais aussi afin de montrer nos résultats. De plus, il est plus intéressant de s’essayer à des rendus visuels atypiques. C’est également le but de Dear Data, rendre les données visuellement cohérentes et en informer sur sa nature. Bien sûr, dans chaque cas de visualisation, il sera fait mention des données invisibles ou difficilement appréhendables au premier abord. Bien que certaines idées aient dû être abandonnées, nous avons pu, dans les grandes lignes, atteindre l'objectif que nous nous étions fixées avec ces visualisations. 
 
 # 1) Camembert:  (fichier c.html et c2.js)
-Celui-ci est beaucoup moins poussé que les autres visualisations. Tout d’abord, on remarquera qu’en passant la souris sur un bout de camembert (en hoover), le son démarre. (Il ne faut pas hésiter à cliquer sur la page pour que le son se débloque.) Il affiche les pourcentages de types d’instruments joués. (cordes, vents, percussions, chants, autre). Ils ont été codés avec des valeurs numériques de sorte qu’ils soient plus aisés de récupérer ces informations. Par ex. 1 = instrument à Corde. Non seulement du son sort des arcs respectifs du camembert, mais elle affiche également la liste des instruments joués. Chaque ligne correspond à un répondant. 
+Celui-ci est beaucoup moins poussé que les autres visualisations. Tout d’abord, on remarquera qu’en passant la souris sur un bout de camembert (en hoover), le son démarre (il ne faut pas hésiter à cliquer sur la page pour que le son se débloque). Il affiche les pourcentages de types d’instruments joués (cordes, vents, percussions, chants, autre). Ils ont été codés avec des valeurs numériques de sorte qu’ils soient plus facilement exploitables. Par exemple, 1 est égal à un instrument à corde. Non seulement du son sort des arcs respectifs du camembert, mais elle affiche également la liste des instruments joués s'affiche également. Chaque ligne correspond à un répondant. 
 On ne voit pas, cependant, dans cette visualisation le fait que certains jouent plus que d’une sorte d’instrument. Tout comme les autres informations du fichier csv ne s’affichent point du tout.
 Quant au pourquoi de ce choix de visualisations, il s’explique de par le fait que c’était l’une des premières visualisations créées, et, bien qu’ils soient moins poussés. Il permet tout de même de faire sortir des informations sur le TypeInstrument.
 
@@ -82,11 +82,4 @@ La Sonothèque:
 * https://lasonotheque.org/chant-diphonique-do-s3033.html
 
 * https://lasonotheque.org/didgeridoo-s0296.html
-
-
-
-Crédits
-Codes commentaires/clean (dossier aussi) + add légende pour le camembert
-Index pour faire lien avec tous les codes.
-Font	
 
