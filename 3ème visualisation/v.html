@@ -2,14 +2,20 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Voronoi</title>
+  <title>Voronoï</title>
   <script type="module" src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
   <script id="d3" type="module" src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body style="background-color:#000000;">
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+      </style>
 <div id="info" style="color:azure">Légende</div>
 <div id="info" style="color:azure">Voronoï, dont l'angle N-W joue le moins d'instrument différent, et l'angle S-E joue le plus d'instrument différent.</div>
 <div id="info" style="color:azure">L'angle N-E concerne les individus les plus âgés et l'angle S-W, les plus jeunes.</div>
+<div id="info" style="color:azure">Plus ils sont voisins, plus les individus sont proches.</div>
 <script src="v.js"></script>
 </body>
 </html>

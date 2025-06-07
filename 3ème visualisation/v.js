@@ -1,22 +1,23 @@
-//Code qui a inspiré: https://sciutoalex.github.io/p5-D3-cookbook/recipes-beginner/voronoi/
+//Code qui s'est inspiré de : https://sciutoalex.github.io/p5-D3-cookbook/recipes-beginner/voronoi/
 
 let dataPoints = [];
 let voronoi;
-let width = 1200, height = 800; //1200 sur 800 //windowWidth, windowHeight
+let width = 800, height = 800; //1200 sur 800 //windowWidth, windowHeight
 let colorScale;
 let hoveredIndex = -1;
 
+//Nos données csv
 function preload() {
   d3.csv("data.csv").then(data => {
     dataPoints = data.map(d => ({
       x: +d.Age,
       y: +d.TypeInstrument,
-      category: d.Id, //|| "Inconnu",
+      category: d.Id, //|| "Inconnu", --> pour voir données vides
       original: d
     })).filter(d => !isNaN(d.x) && !isNaN(d.y));
 
     const categories = Array.from(new Set(dataPoints.map(d => d.category)));
-    colorScale = d3.scaleOrdinal()
+    colorScale = d3.scaleOrdinal()//colorise nos données
       .domain(categories)
       .range(d3.schemeSet3);
 
@@ -27,11 +28,11 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1200, 800);
+  createCanvas(1200, 800);//canevas svg
 }
-
+//Dessiner nos données dans le canevas SVG
 function draw() {
-  background(255);
+  background(0);
 
   if (voronoi) {
     noStroke();
@@ -54,24 +55,24 @@ function draw() {
       endShape(CLOSE);
     }
 
-    // points
+    //esthétique
     fill(0);
     noStroke();
     for (let pt of dataPoints) {
       ellipse(pt.x, pt.y, 5, 5);
     }
 
-    // Affichage des infos si une cellule est survolée
+    // survol des formes géométriques
     if (hoveredIndex !== -1) {
       let d = dataPoints[hoveredIndex].original;
       fill(255);
       stroke(0);
       strokeWeight(1);
-      rect(mouseX + 10, mouseY + 10, 700, 200);//taille rectangle
+      rect(mouseX + 10, mouseY + 10, 600, 200);//taille rectangle
 
       fill(0);
       noStroke();
-      textSize(12);
+      textSize(12);//On affiche ici les données qu'on souhaite voir apparaître dans le rectangle
       text(`ID: ${d.Id}`, mouseX + 15, mouseY + 30);
       text(`Âge: ${d.Age}`, mouseX + 15, mouseY + 45);
       text(`Instrument: ${d.TypeInstrument}`, mouseX + 15, mouseY + 60);
