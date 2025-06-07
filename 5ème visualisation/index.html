@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clavier de piano interactif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Clavier Interactif</h1> 
+    <h2>Difficultés rencontrées lors d'un parcours d'apprentissage musical</h2>
+    <h3>Résultats pour la question : Avez-vous rencontré ou anticipez-vous des difficultés dans votre apprentissage musical ?</h3>
+    <p>Deux options se présentent à vous :</p>
+    <!-- Seulement deux notes fonctionnent, les autres touches du clavier restent muettes / c'est voulu-->
+    <!--Idée que les personnes aient la possibilité de tenter de découvrir par elles-mêmes quelles sont les notes qui fonctionnent au hasard et si elles le souhaitent-->
+    <!-- Dans la mesure où elles veulent tout de suite découvrir les réponses elles peuvent utiliser les touches V et G-->
+    <!-- Quand on appuie sur V s'affiche le résultat des personnes ayant répondu à "Oui" pour les difficultés rencontrées et G pour "Non" : pas de difficultés rencontrées-->
+    <!-- Choix des touches V et G pour "imiter" le positionnement des notes sur un piano-->
+    <!-- Il est possible d'appuiyer séparéement sur les touches V et G pour ententre le son et voir les réponses MAIS possible aussi d'appuyer" en même temps comme sur un piano-->
+    <!-- Il n'est pas nécessaire de cliquer en premier lieu sur V puis en deuxième sur G. L'inverse G puis V est aussi possible-->
+    <!-- Notation musicale : Son des notes correspondent à Fa/F pour réponse : oui et Fa#/(F#)pour réponse : non -->
+    <!-- Notation des notes (Fa ou F) sont des conventions d'écritures des notes de musiques co-existantes et qui signifient la même chose -->
+    <!-- Fa#/ F# ( il aurait été possible d'indiquer sol bémol (Gb) et  désigne aussi le même son sur un piano--> 
+    <!-- Idéee d'un simili simplifié de piano-->
+    <!-- Son note F et F# prise sur site sampleFocus-->
+    <p> - Cliquez au hasard sur des touches du piano jusqu'à arriver aux 2 bonnes notes.</p>
+    <p> - Utilisez les touches suivantes de votre clavier d'ordinateur pour découvrir les résultats obtenus :</p>
+    <ul>
+      <li><strong>V</strong> = Oui</li>
+      <li><strong>G</strong> = Non</li>
+    </ul>
+  </header>
+
+  <main>
+    <!-- Canva SVG Arrière-plan / derrière touche piano pour donner un peu de dimension-->
+    <!-- Laegeur/ hauteur-->
+    <svg width="600" height="220"></svg>
+    <div id="feedback"></div>
+  </main>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
