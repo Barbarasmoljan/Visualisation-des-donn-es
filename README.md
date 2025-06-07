@@ -63,8 +63,12 @@ Cette visualisation met en scène des notes, en fichiers png ou en texte, qui se
 Toutefois, les autres informations ne sont pas affichées dans cette visualisation, et il devient rapidement évident qu'il est nécessaire de faire une sélection parmi pléthore d’informations disponibles dans le csv. Mais, puisque le fichier est plutôt long, il serait indigeste de tout afficher d’un coup.
 
 # 3) Voronoï : (fichier v.html et v.js)
-Cette visualisation combine à la fois D3 et P5 et est basé sur le code mis en lien en tout début du code (fichier v.js). En allant avec la souris (hoover) sur les formes géométriques, on peut afficher les informations de chaque individu. Chaque partie géométrique est un répondant trié par leur ID et par le fait qu’ils soient plus ou moins proches de leurs voisins le plus direct. On peut remarquer en cliquant sur les opposés en diagonales que les informations sont totalement opposées. Qui plus est, contrairement à la visualisation de partition, ce voronoï, est cantonné plus strictement à son canevas, dû au fait qu’il faille à la fois rendre cohérent le code pour P5 et D3 qui sont parfois contradictoire entre eux. C’était le cas par exemple du camembert où l’usage de P5 pour visualiser le son a été abandonné, car l’un fonctionnait, et le second non.
+Cette visualisation combine à la fois les libraries *D3* et *P5* et est basée sur le code mis en lien en tout début du code (fichier v.js). En allant avec la souris (hover) sur les formes géométriques, on peut afficher les informations de chaque individu. Chaque forme géométrique correspond à un répondant lié à leur ID. et par le fait qu’ils soient plus ou moins proches de leurs voisins le plus direct. On peut remarquer en cliquant sur les opposés en diagonales que les informations sont totalement opposées. Qui plus est, contrairement à la visualisation de partition, ce voronoï, est cantonné plus strictement à son canevas, dû au fait qu’il faille à la fois rendre cohérent le code pour P5 et D3 qui sont parfois contradictoire entre eux. C’était le cas par exemple du camembert où l’usage de P5 pour visualiser le son a été abandonné, car l’un fonctionnait, et le second non.
 Quant aux données non visibles, puis
+
+
+Voronoï, dont l'angle N-W joue le moins d'instrument différent, et l'angle S-E joue le plus d'instrument différent.
+L'angle N-E concerne les individus les plus âgés et l'angle S-W, les plus jeunes.
 
 # Crédits
 
