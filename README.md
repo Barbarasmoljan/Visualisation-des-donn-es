@@ -2,31 +2,51 @@
 
 L’objectif de ce travail de visualisations est d’illustrer les données récoltées durant le questionnaire tout en les mettant en perspective. Le questionnaire porte en lui-même sur les pratiques musicales des répondants ainsi que sur d’autres questions connexes telles que les difficultés d’apprentissage et leur éventuelle volonté d'apprendre à jouer/chanter via des cours en ligne.
 
-Nos données comportent majoritairement des éléments de réponses catégorielles. Certaines réponses étaient à choix, mais d’autres permettait au répondant d'ajouter une réponse écrite. Pour ce rendu, nous vous proposons six visualisations qui s'appuient pleinement sur ces données. Toutes comportent une certaine forme d’interaction que nous expliciterons pour chacune d’entre elles. Concernant la qualité des données, mise à part quelques corrections qui ont dû être apportée au fichier .csv, on peut dire que l’échantillonnage est plutôt large pour un questionnaire à petite échelle. Nous avons pu obtenir 111 (Vérif) réponses. Même si certaines des réponses ont été interrompues en cours de route, ces dernières restent précieuses. Il peut bien sûr y avoir des biais dans les réponses, car les données concernent l’être humain et ses habitudes et usages musicaux.
+Nos données comportent majoritairement des éléments de réponses catégorielles. Certaines réponses étaient à choix, mais d’autres permettait au répondant d'ajouter une réponse écrite. Pour ce rendu, nous vous proposons six visualisations qui s'appuient pleinement sur ces données. Toutes comportent une certaine forme d’interaction que nous expliciterons pour chacune d’entre elles. Concernant la qualité des données, mise à part quelques corrections qui ont dû être apportée au fichier .csv, on peut dire que l’échantillonnage est plutôt large pour un questionnaire à petite échelle. Nous avons pu obtenir 111 réponses. Même si certaines des réponses ont été interrompues en cours de route, ces dernières restent précieuses. Il peut bien sûr y avoir des biais dans les réponses, car les données concernent l’être humain et ses habitudes et usages musicaux.
 
 
-#Sur la DATA, en détail
+## Sur la DATA, en détail
 Dans le fichier .csv, on retrouve l’ensemble des données des réponses des 111 (vérif) répondants. Un nettoyage a dû être fait après le transfert depuis le questionnaire en format .csv. De plus, des catégories supplémentaires a dû être ajoutée afin de simplifier certaines informations textuelles. C’est le cas par exemple des « TypeInstrument », qui est une variable créée expressément afin de récupérer les informations comme qui jouent des instruments à vent ou à cordes. Ils ont été codés par des chiffres, mais ils font références à des réponses catégorielles.
-(RELIRE)
--Lister chaques variables ici et les définir :
+
+# (RELIRE)
+Liste de chaque variable et leur définition:
+
 -Âge : L’âge des répondants. (En tranche d’âge.)
+
 -Practice : Quel est la pratique musicale des répondants.
+
 -Instrument : Quels types d’instruments jouent-ils.
+
 -Apprentissage : De quelle manière les répondants ont appris à jouer de la musique/le chant.
+
 -Difficultés : À quel point il a été difficiles pour les répondants d’apprendre à jouer//chanter.
+
 -Aide : 
+
 -StyleMusic : Quel style de musique apprécient ?jouent ? les répondants.
+
 -Intérêts : 
+
 -Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances apprises.
+
 -Accompagnement :
+
 -CoursEnLigne : 
+
 -Avantages :
+
 -DifficultésLearn : Quels ont été les difficultés d’apprentissage pour les répondants.
+
 -IntérêtFormationEnLigne : Est-ce que les répondants ont un intérêts à suivre des cours en ligne.
+
 -Remarque Supplémentaire :
+
 -TypeInstrument : Code numérique pour la variable Instrument. Chaque numéro correspond à un type d’instrument (par ex. instruments à cordes.)
+
+## Totalité des
 "Age","Practice","Instrument","Apprentissage","Difficultés","Aide","StyleMusic","Intérêts","Projet","Accompagnement","CoursEnLigne","Avantages","DifficultésLearn","IntérêtFormationEnLigne","RemarqueSupplémentaire","TypeInstrument"
 
+#
 Pour ce qui est des visualisations choisis, elles ont toutes soit un attrait artistique ou en lien avec la thématique du questionnaire : la musique. Cela passe par la forme autant que par le son. La plupart des visualisations s’inspirent d’objets réels (piano, partition, gramophone avec un vinyl) et d’autres comportent des formes plus propres aux visualisations entre-guillemets, plus classiques. C’est le cas par exemple du voronoï qui use également de P5 et du camembert. Chacun a ses avantages et inconvénients, mais ils permettent dans tous les cas de visualiser nos données. Quant à ce qu’on voit ou ne voit pas dans ces visualisations, nous les détaillerons plus en détail en présentant ceux-ci. 
 
 #Raison de ces visualisations + Pourquoi ceux-ci.(voir quelle partie on garde)
