@@ -66,8 +66,11 @@ Nonobstant, le reste des informations n’est pas affichée dans cette visualisa
 Cette visualisation combine à la fois D3 et P5 et est basé sur le code mis en lien en tout début du code (fichier v.js). En allant avec la souris (hoover) sur les formes géométriques, on peut afficher les informations de chaque individu. Chaque partie géométrique est un répondant trié par leur ID et par le fait qu’ils soient plus ou moins proches de leurs voisins le plus direct. On peut remarquer en cliquant sur les opposés en diagonales que les informations sont totalement opposées. Qui plus est, contrairement à la visualisation de partition, ce voronoï, est cantonné plus strictement à son canevas, dû au fait qu’il faille à la fois rendre cohérent le code pour P5 et D3 qui sont parfois contradictoire entre eux. C’était le cas par exemple du camembert où l’usage de P5 pour visualiser le son a été abandonné, car l’un fonctionnait, et le second non.
 Quant aux données non visibles, puis
 
-Crédits
-[Uploa<?xml version="1.0" encoding="UTF-8"?>
+# Crédits
+
+La Sonothèque:
+
+* [Uploa<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -77,7 +80,7 @@ Crédits
 </plist>
 ding Vent (son gratuit).webloc…]()
 
-[Uploading Accordage d'un<?xml version="1.0" encoding="UTF-8"?>
+* [Uploading Accordage d'un<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -87,7 +90,7 @@ ding Vent (son gratuit).webloc…]()
 </plist>
  piano (son gratuit).webloc…]()
 
-[Uploa<?xml version="1.0" encoding="UTF-8"?>
+* [Uploa<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -97,7 +100,7 @@ ding Vent (son gratuit).webloc…]()
 </plist>
 ding Sanza, instrument (son gratuit).webloc…]()
 
-[Uploading Boîte à musique, Do 1 (son<?xml version="1.0" encoding="UTF-8"?>
+* [Uploading Boîte à musique, Do 1 (son<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -116,7 +119,7 @@ ding Sanza, instrument (son gratuit).webloc…]()
 </dict>
 </plist>
 
-[Uplo<?xml version="1.0" encoding="UTF-8"?>
+* [Uplo<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
