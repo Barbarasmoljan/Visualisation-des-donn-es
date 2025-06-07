@@ -15,7 +15,7 @@ const x2 = 1150;
 const yStart = 40;
 
 let data = [];
-let bubbles = [];
+let bubbles = [];//Avant d'être transformée en notes, c'était des cercles
 
 const colors = d3.schemeCategory10;
 
@@ -24,17 +24,17 @@ function createStaffLines() {
     let yBase = yStart + i * espacePortee;
 
 
-//Le titre de la "partition": Visualisation
+//Le titre de la "partition"
     svg.append("text")
         .text("La Ballade des Âges") //C'est censé être un jeu de mots vu que les notes bougent.^^'
         .attr("x", 500)
         .attr("y", 20)
         .attr("font-size", 24)
-        .attr("font-family", "serif")
+        .attr("font-family:Arial", "sans-serif")
         .attr("dominant-baseline", "middle");
 //Légende : dans le HTML!
 
-    // Ajouter les 5 lignes de la portée
+// les 5 lignes de la portée
     for (let j = 0; j < nbLignes; j++) {
       let y = yBase + j * espaceLigne;
       svg.append("line")
@@ -46,7 +46,7 @@ function createStaffLines() {
         .attr("stroke-width", 1);
     }
 
-    // Barre verticale au début de la portée
+  // Barre verticale entre les deux portées (après l'accolade)
     svg.append("line")
       .attr("x1", x1)
       .attr("x2", x1)
@@ -54,14 +54,14 @@ function createStaffLines() {
       .attr("y2", yBase + (nbLignes - 1) * espaceLigne)
       .attr("stroke", "black")
       .attr("stroke-width", 2);
-    // Alternance clé de sol et clé de fa
+// Alternance clé de sol et clé de fa. Clé de sol en premier.
     const isCleSol = i % 2 === 0;
     const imageSrc = isCleSol ? "clesol.png" : "clefa.png";
     const imageHeight = isCleSol ? 75 : 30;
     const imageWidth = isCleSol ? 40 : 30;
     const yOffset = isCleSol ? 25 : 15;
 
-    // Placeholder : soit clé de sol, soit clé de fa
+//Placeholder clé de sol ou clé de fa
     svg.append("image")
       .attr("href", imageSrc)
       .attr("x", x1 - 0)
@@ -85,13 +85,13 @@ function createStaffLines() {
       //.attr("width", 30)
       //.attr("height", 30);
 
-    // Ajouter accolade & barre de liaison toutes les deux portées
+// Ajouter accolade & barre de liaison toutes les deux portées
     if (i % 2 === 0 && i + 1 < nbPortees) {
       const yTop = yBase;
       const yBottom = yStart + (i +1) * espacePortee + (nbLignes - 1) * espaceLigne-10;
       const centerY = (yTop + yBottom) / 2;
 
-      // Accolade en texte
+//Accolade en texte
       svg.append("text")
         .text("{")
         .attr("x", x1 - 60)
@@ -100,7 +100,7 @@ function createStaffLines() {
         .attr("font-family", "serif")
         .attr("dominant-baseline", "middle");
 
-      // Ligne verticale de liaison entre les deux portées
+// Ligne verticale de liaison entre les deux portées
       svg.append("line")
         .attr("x1", x1)
         .attr("x2", x1)
@@ -145,7 +145,7 @@ function loadData() {
     });
 
     drawBubbles();
-    startSimulation();
+    startTheDance();
   });
 }
 
@@ -246,7 +246,7 @@ function onBubbleClick(event, d) {
   d3.select("#info").html(info);
 }
 
-function startSimulation() {
+function startTheDance() {
   d3.timer(() => {
     for (let b of bubbles) {
       b.x += b.vx;
@@ -287,6 +287,5 @@ function startSimulation() {
   });
 }
 
-// Lancement
 createStaffLines();
 loadData();
