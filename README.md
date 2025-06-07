@@ -47,10 +47,64 @@ Cette visualisation combine à la fois D3 et P5 et est basé sur le code mis en 
 Quant aux données non visibles, puis
 
 Crédits
+[Uploa<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://lasonotheque.org/vent-s0595.html</string>
+</dict>
+</plist>
+ding Vent (son gratuit).webloc…]()
 
+[Uploading Accordage d'un<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://lasonotheque.org/accordage-d-un-piano-s2696.html</string>
+</dict>
+</plist>
+ piano (son gratuit).webloc…]()
 
+[Uploa<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://lasonotheque.org/sanza-instrument-s0470.html</string>
+</dict>
+</plist>
+ding Sanza, instrument (son gratuit).webloc…]()
 
+[Uploading Boîte à musique, Do 1 (son<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://lasonotheque.org/boite-a-musique-do-1-s1867.html</string>
+</dict>
+</plist>
+ gratuit).webloc…]()
 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://lasonotheque.org/chant-diphonique-do-s3033.html</string>
+</dict>
+</plist>
+
+[Uplo<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://lasonotheque.org/didgeridoo-s0296.html</string>
+</dict>
+</plist>
+ading Didgeridoo (son gratuit).webloc…]()
 
 
 
