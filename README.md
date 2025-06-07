@@ -1,4 +1,4 @@
-#Visualisation de données
+##Visualisation de données
 
 L’objectif de ce travail de visualisations est d’illustrer tout en informant les données récoltées durant le questionnaire. Le questionnaire en lui-même porte sur les pratiques musicales des répondants et d’autres questions connexes comme les difficultés d’apprentissage et s’ils seraient prêt à apprendre à jouer/chanter via des cours en ligne.
 
