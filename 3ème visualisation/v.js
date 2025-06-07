@@ -75,8 +75,8 @@ function draw() {
       text(`ID: ${d.Id}`, mouseX + 15, mouseY + 30);
       text(`Âge: ${d.Age}`, mouseX + 15, mouseY + 45);
       text(`Instrument: ${d.TypeInstrument}`, mouseX + 15, mouseY + 60);
-      text(`Style: ${d.StyleMusic}`, mouseX + 15, mouseY + 75);
-      text(`Projet: ${d.Projet}`, mouseX + 15, mouseY + 90);
+      text(`Aide: ${d.Aide}`, mouseX + 15, mouseY + 75);
+      text(`Pratique: ${d.Practice}`, mouseX + 15, mouseY + 90);
     }
   }
 }
