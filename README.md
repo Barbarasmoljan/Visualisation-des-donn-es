@@ -8,20 +8,19 @@ Nos données comportent majoritairement des éléments de réponses catégoriell
 ## Sur la DATA, en détail
 Dans le fichier .csv, on retrouve l’ensemble des données des réponses des 111 (vérif) répondants. Un nettoyage a dû être effectué après le transfert depuis le questionnaire au format .csv. De plus, des catégories supplémentaires ont dû être ajoutées afin de simplifier certaines informations textuelles. C’est le cas par exemple de la variable « TypeInstrument », créée expressément pour récupérer des informations telles que le type d'instrument ils jouent (à corde, à vent, etc.). Ils ont été codés par des chiffres, mais ils renvoient à des réponses catégorielles.
 
-# (RELIRE)
-Liste de chaque variable et leur définition:
+# Liste de chaque variable et leur définition:
 
 -Âge : L’âge des répondants. (En tranche d’âge.)
 
--Practice : Quel est la pratique musicale des répondants.
+-Practice : Quelle est la pratique musicale des répondants.
 
--Instrument : Quels types d’instruments jouent-ils.
+-Instrument : Quels types d’instruments jouent les répondants.
 
--Apprentissage : Est-ce que les répondants ont appris par le passé de la musique/du chant.
+-Apprentissage : Les répondants ont-ils appris par le passé de la musique/du chant.
 
--Difficultés : À quel point il a été difficiles pour les répondants d’apprendre à jouer/chanter.
+-Difficultés : Dans quelle mesure l'apprentissage a-t-il été difficile pour les répondants ?
 
--Aide : Qu'est-ce qui aiderait à s'y remettre
+-Aide : Qu'est-ce qui aiderait à se remettre à la musique/au chant.
 
 -StyleMusic : Quel style de musique apprécient/jouent les répondants.
 
@@ -29,7 +28,7 @@ Liste de chaque variable et leur définition:
 
 -Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances apprises.
 
--Accompagnement :
+-Accompagnement : Quel type d'accompagnement les répondants souhaiteraient.
 
 -CoursEnLigne : Que veulent-ils apprendre.
 
@@ -37,7 +36,7 @@ Liste de chaque variable et leur définition:
 
 -DifficultésLearn : Quels ont été les difficultés d’apprentissage pour les répondants.
 
--IntérêtFormationEnLigne : Est-ce que les répondants ont un intérêts à suivre des cours en ligne.
+-IntérêtFormationEnLigne : Les répondants sont-ils intéressés par la possibilité de suivre des cours en ligne.
 
 -Remarque Supplémentaire : Réponses supplémentaires des répondants.
 
