@@ -2,6 +2,17 @@
 
 L’objectif de ce travail de visualisations est d’illustrer les données récoltées durant le questionnaire tout en les mettant en perspective. Le questionnaire porte en lui-même sur les pratiques musicales des répondants ainsi que sur d’autres questions connexes telles que les difficultés d’apprentissage et leur éventuelle volonté d'apprendre à jouer/chanter via des cours en ligne.
 
+
+# Contexte du sondage
+
+Pour la création du sondage, l’idée était de comprendre le parcours musical des gens, en se focalisant tout particulièrement sur ces points : besoins en musique, les motivations des gens et les obstacles rencontrés pour ceux qui débutent, reprendre ou approfondir un pratique musicale. À cet effet, un sondage a été créé sur *Google Forms*, puis partagé pour collecter les témoignages. 
+
+Après avoir récolté les réponses, on a par la suite extrait des exemples concernant les difficultés ressenties vis-à-vis de leur pratique musicale. Ceci dans le but de pouvoir développer un programme pédagogique sur internet ultérieurement qui puisse cibler une problématique réelle qui existe chez certaines personnes.
+
+Le questionnaire a été créé de manière anonymisée et transmis, dans un premier temps, à des connaissances, par Whatsapp et par e-mails. Il a été ensuite relayé plus loin. Parmi les connaissances, il s’agissait principalement de cibler des personnes adultes (majeurs), francophones. Qu’elles soient musiciennes professionnelles ou non, ou que ces personnes pratiquent ou non la mausique régulièrement, l'objectif est de visualiser les parcours variés. Afin de tenter d’obtenir le plus possible de réponses, le sondage a également été posté sur des forums de musiquse tels que audio fanzine.
+
+La collecte des réponses a duré un mois, soit environ 4 semaines, ce qui a résulté de 111 réponses au cours de ce délai. Une fois le sondage terminé, un fichier. csv a été produit à partir de ces données afin de, par la suite, traiter certaines réponses et de les visualiser.
+
 Nos données comportent majoritairement des éléments de réponses catégorielles. Certaines réponses étaient à choix, mais d’autres permettait au répondant d'ajouter une réponse écrite. Pour ce rendu, nous vous proposons six visualisations qui s'appuient pleinement sur ces données. Toutes comportent une certaine forme d’interaction que nous expliciterons pour chacune d’entre elles. Concernant la qualité des données, mise à part quelques corrections qui ont dû être apportée au fichier .csv, on peut dire que l’échantillonnage est plutôt large pour un questionnaire à petite échelle. Nous avons pu obtenir 111 réponses. Même si certaines des réponses ont été interrompues en cours de route, ces dernières restent précieuses. Il peut bien sûr y avoir des biais dans les réponses, car les données concernent l’être humain et ses habitudes et usages musicaux.
 
 
