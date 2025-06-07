@@ -1,6 +1,6 @@
 #Visualisation de données
 
-L’objecti de e travail de visualisations est d’illustrer tout en informant les données récoltées durant le questionnaire. Le questionnaire en lui-même porte sur les pratiques musicales des répondants et d’autres questions connexes comme les difficultés d’apprentissage et s’ils seraient prêt à apprendre à jouer/chanter via des cours en ligne.
+L’objectif de ce travail de visualisations est d’illustrer tout en informant les données récoltées durant le questionnaire. Le questionnaire en lui-même porte sur les pratiques musicales des répondants et d’autres questions connexes comme les difficultés d’apprentissage et s’ils seraient prêt à apprendre à jouer/chanter via des cours en ligne.
 
 Nos données comportent des éléments de réponses majoritairement catégorielles. Certaines réponses étaient à choix, mais d’autres, les répondants pouvaient faire une réponse écrite. Pour ce rendu, nous vous proposons six visualisations se reposant pleinement sur ces données. Toutes comportent une certaine forme d’interaction que nous expliciterons pour chacun d’entre eux. Quant à la qualité des données, mise à part quelques corrections qui a dû être fait sur le fichier .csv, on peut dire que l’échantillonnage est plutôt large pour un questionnaire à petite échelle. Nous avons pu avoir 111 (Vérif) réponses. Bien que sur l’ensemble des réponses, certaines des réponses ont été interrompues en cours de route, cela reste des informations précieuses. Bien sûr, il peut y avoir des biais dans les réponses puisque les données concernent l’être humain.
 
