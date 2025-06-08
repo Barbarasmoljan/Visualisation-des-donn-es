@@ -141,4 +141,10 @@ Malgré ces limites , il est possible de dire que cette visualisation propose un
 
 ## Crédits
 
+Sons pour les notes proviennent de site SampleFocus : https://samplefocus.com/
+Pour ce site il faut créer un compte gratuit afin de pouvoir accéder à la libraire des sons.
+
+Pour la note Fa (V) : https://samplefocus.com/samples/piano-f
+Pour la note Fa# (G) :  https://samplefocus.com/samples/piano-note-f-f
+
 
