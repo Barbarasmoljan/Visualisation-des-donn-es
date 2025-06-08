@@ -12,7 +12,7 @@ const svg = d3.select('#chart').append('svg')
 // Idée d'avoir un chien et un grammophone est directement inspiré du logo HMV
 // Bref résumé contexte HMV : l'abbréviation pour His Master's Voice
 // Ce logo représente un chien qui écoute un phonographe
-//Tableau original créé par Francis Barraud et racheté par Grammophone Company future EMI
+//Tableau original créé par Francis Barruad et racheté par Grammophone Company future EMI
 //Image devient connue et symbolique de la compagnie 
 // Ainsi idée d'avoir en arrière plan un grammophone et 
 // avoir devant une image d'un chien s'inspire et est un clin d'oeil  direct à HMV
