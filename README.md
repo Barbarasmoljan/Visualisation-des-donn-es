@@ -125,6 +125,8 @@ Musique par tranches d'âge :
 - 45 à 59 ans : https://pixabay.com/fr/music/trouille-snatch-166884/
 - Plus de 60 ans : https://pixabay.com/music/search/emo%20rock%20/
 
+Référence en lien avec HMV : https://www.bbc.com/news/uk-46700080
+
 ## 5) Piano
 
 Cette nouvelle visualisation représente des réponses à une question qui traite des difficultés rencontrées lors de l'apprentissage musical et use de la métaphore visuelle d'un piano. Le piano comme instrument est souvent utilisé comme un symbole en général de l'apprentissage de la musique. L'idée de cette visualisation consiste d'apporter un effet ludique et interactif de l'usage des données. La structure de la visualisation s'appuie sur la binarité des réponses "Oui" ou "NON", pour ensuitre illustrer la proportion des personnes ayant recontré ou non des difficultés dans leur apprentisage.
