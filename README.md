@@ -5,11 +5,11 @@ L’objectif de ce travail de visualisations est d’illustrer les données réc
 
 ## Contexte du sondage
 
-Pour la création du sondage, l’idée était de comprendre le parcours musical des gens, en se focalisant tout particulièrement sur ces points : besoins en musique, les motivations des gens et les obstacles rencontrés pour ceux qui débutent, reprendre ou approfondir un pratique musicale. À cet effet, un sondage a été créé sur *Google Forms*, puis partagé pour collecter les témoignages. 
+Pour créer le sondage, l’idée était de comprendre le parcours musical des gens, en se focalisant tout particulièrement sur les points suivants : les besoins en musique, les motivations des gens et les obstacles rencontrés par ceux qui débutent, ou souhaitent reprendre ou approfondir une pratique musicale. À cet effet, un sondage a été créé sur *Google Forms*, puis partagé pour collecter les témoignages. 
 
-Après avoir récolté les réponses, on a par la suite extrait des exemples concernant les difficultés ressenties vis-à-vis de leur pratique musicale. Ceci dans le but de pouvoir développer un programme pédagogique sur internet ultérieurement qui puisse cibler une problématique réelle qui existe chez certaines personnes.
+Après avoir récolté les réponses, on a par la suite extrait des exemples concernant les difficultés ressenties vis-à-vis de leur pratique musicale. Ceci dans le but de pouvoir développer ultérieurement un programme pédagogique en ligne qui puisse cibler une problématique qui existe chez certaines personnes.
 
-Le questionnaire a été créé de manière anonymisée et transmis, dans un premier temps, à des connaissances, par Whatsapp et par e-mails. Il a été ensuite relayé plus loin. Parmi les connaissances, il s’agissait principalement de cibler des personnes adultes (majeurs), francophones. Qu’elles soient musiciennes professionnelles ou non, ou que ces personnes pratiquent ou non la mausique régulièrement, l'objectif est de visualiser les parcours variés. Afin de tenter d’obtenir le plus possible de réponses, le sondage a également été posté sur des forums de musiquse tels que audio fanzine.
+Le questionnaire a été créé de manière anonymisée, puis transmis, dans un premier temps, à des connaissances par *Whatsapp* et par e-mails. Il a ensuite été relayé plus loin. Il s’agissait principalement de cibler des personnes majeures et francophones. Que les répondants soient des musiciens professionnels ou non, ou qu'ils pratiquent ou non la musique régulièrement, l'objectif est de mettre en lumière des parcours variés. Afin d’obtenir un maximum de réponses, le sondage a également été posté sur des forums de musique tels que Audio Fanzine.
 
 La collecte des réponses a duré environ mois, soit environ 4 semaines, ce qui a résulté de 111 réponses au cours de ce délai. Une fois le sondage terminé, un fichier. csv a été produit à partir de ces données afin de, par la suite, traiter certaines réponses et de les visualiser.
 
