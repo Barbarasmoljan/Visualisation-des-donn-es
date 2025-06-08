@@ -125,7 +125,7 @@ Musique par tranches d'âge :
 - 45 à 59 ans : https://pixabay.com/fr/music/trouille-snatch-166884/
 - Plus de 60 ans : https://pixabay.com/music/search/emo%20rock%20/
 
-Référence en lien avec HMV : https://www.bbc.com/news/uk-46700080
+HMV - The Rise and Fall of a music icon : https://www.bbc.com/news/uk-46700080
 
 ## 5) Piano
 
