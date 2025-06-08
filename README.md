@@ -113,6 +113,16 @@ Une des limites de ce type de visualisation concerne la difficulté de pouvoir e
 
 ## Crédits
 
+Les images du chien et gramophone proviennent du site internet suivant : https://pixabay.com/fr/
+
+Musique par tranches d'âge :
+
+- Moins de 18 ans : https://pixabay.com/fr/music/search/2000s%20%20pop%20music/?pagi=2
+- 18 à 29 ans : https://pixabay.com/fr/music/search/90s%20music/ 
+- 30 à 44 ans : https://pixabay.com/fr/music/search/80s%20music/ 
+- 45 à 59 ans : https://pixabay.com/fr/music/trouille-snatch-166884/
+- Plus de 60 ans : https://pixabay.com/music/search/emo%20rock%20/
+
 ## 5) Piano
 
 Cette nouvelle visualisation représente des réponse à une question qui traite des difficultés rencontrées lors de l'apprentissage musical et use de la métaphore visuel d'un piano. Le piano  comme instrument est souvent utilisé comme un symbole  en général de l'apprentissage de la musique. L'idée de cette visualisation consitait d'apporter un effet ludique et interactif de l'usage des données. La structure de la visualisation s'appuie sur la binarité des réponse "Oui" ou "NON", pour ensuitre illustre la proportion des personnes ayant recontré ou non des difficultés dans leur apprentisage.
