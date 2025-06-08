@@ -17,51 +17,51 @@ Nos données comportent majoritairement des éléments de réponses catégoriell
 
 
 ## Sur la DATA, en détail
-Dans le fichier .csv, on retrouve l’ensemble des données des réponses des 111 (vérif) répondants. Un nettoyage a dû être effectué après le transfert depuis le questionnaire au format .csv. De plus, des catégories supplémentaires ont dû être ajoutées afin de simplifier certaines informations textuelles. C’est le cas par exemple de la variable « TypeInstrument », créée expressément pour récupérer des informations telles que le type d'instrument ils jouent (à corde, à vent, etc.). Ils ont été codés par des chiffres, mais ils renvoient à des réponses catégorielles.
+Dans le fichier .csv, on retrouve l’ensemble des données des réponses des 111 (vérif) répondants. Un nettoyage a dû être effectué après le transfert depuis le questionnaire au format .csv. Des catégories supplémentaires ont également dû être ajoutées afin de simplifier certaines informations textuelles. C’est le cas par exemple de la variable « TypeInstrument », créée expressément pour récupérer des informations telles que le type d'instrument joué (à corde, à vent, etc.). Codées par des chiffres, ces variables renvoient à des réponses catégorielles.
 
 ## Liste de chaque variable et leur définition:
 
 -Âge : L’âge des répondants. (En tranche d’âge.)
 
--Practice : Quelle est la pratique musicale des répondants.
+-Practice : Quelle est la pratique musicale des répondants?
 
--Instrument : Quels types d’instruments jouent les répondants.
+-Instrument : Quels types d’instruments jouent les répondants?
 
--Apprentissage : Les répondants ont-ils appris par le passé de la musique/du chant.
+-Apprentissage : Les répondants ont-ils appris par le passé à jouer d'un instrument de musique ou à chanter?
 
 -Difficultés : Dans quelle mesure l'apprentissage a-t-il été difficile pour les répondants ?
 
--Aide : Qu'est-ce qui aiderait à se remettre à la musique/au chant.
+-Aide : Quelles seraient les meilleures façons de se remettre à la musique ou au chant?
 
--StyleMusic : Quel style de musique apprécient/jouent les répondants.
+-StyleMusic : Quel style de musique apprécient ou jouent les répondants?
 
 -Intérêts : Intérêt à apprendre.
 
--Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances apprises.
+-Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances apprises?
 
--Accompagnement : Quel type d'accompagnement les répondants souhaiteraient.
+-Accompagnement : Quel type d'accompagnement les répondants souhaiteraient-ils?
 
--CoursEnLigne : Que veulent-ils apprendre.
+-CoursEnLigne : Que souhaitent-ils apprendre?
 
 -Avantages : Avantages des cours selon les répondants.
 
--DifficultésLearn : Quels ont été les difficultés d’apprentissage pour les répondants.
+-DifficultésLearn : Quelles ont été les difficultés d’apprentissage pour les répondants?
 
--IntérêtFormationEnLigne : Les répondants sont-ils intéressés par la possibilité de suivre des cours en ligne.
+-IntérêtFormationEnLigne : Les répondants sont-ils intéressés par la possibilité de suivre des cours en ligne?
 
 -Remarque Supplémentaire : Réponses supplémentaires des répondants.
 
--TypeInstrument : Code numérique pour la variable Instrument. Chaque numéro correspond à un type d’instrument (par ex. instruments à cordes.)
+-TypeInstrument : Code numérique pour la variable Instrument. Chaque numéro correspond à un type d’instrument (par ex.: instruments à cordes.).
 
 ## Totalité des variables des données du fichier CSV
 "Age","Practice","Instrument","Apprentissage","Difficultés","Aide","StyleMusic","Intérêts","Projet","Accompagnement","CoursEnLigne","Avantages","DifficultésLearn","IntérêtFormationEnLigne","RemarqueSupplémentaire","TypeInstrument"
 
 ## Visualisation: avant-propos
-Concernant les visualisations choisies, elles ont toutes soit un attrait artistique, soit un lien avec la thématique du questionnaire : la musique. Cela passe autant par la forme autant que par le son. La plupart des visualisations s’inspirent d’objets réels (piano, partition, gramophone avec un vinyle) et d’autres comportent des formes plus classiques, entre guillemets, plus propre aux visualisations. C’est le cas, par exemple, du Voronoï qui utilise également les P5 et les camemberts. Chacune a ses avantages et inconvénients, mais elles permettent dans tous les cas de visualiser nos données. Nous détaillerons plus en détail ce que l'on voit ou ne voit pas dans ces visualisations lors de leur présentation.
+Concernant les visualisations choisies, elles ont toutes un attrait artistique ou un lien avec la thématique du questionnaire : la musique. Cela passe autant par la forme autant que par le son. La plupart des visualisations s’inspirent d’objets réels (piano, partition, gramophone avec un vinyle) et d’autres comportent des formes plus classiques, en quelque sorte, plus propres aux visualisations. C’est le cas, par exemple, du Voronoï qui utilise également P5 et les camemberts. Chacune a ses avantages et inconvénients, mais elles permettent dans tous les cas de visualiser nos données. Nous détaillerons plus en détail ce que l'on voit ou ne voit pas dans ces visualisations lors de leur présentation.
 
 ## Raison de ces visualisations
-Dans le cadre du champ disciplinaire ISH et du champ d’études en Musicologie, les données créées à la suite d’un questionnaire allient ces deux disciplines. Comme indiqué précédemment, l’objectif de la création de ces visualisations est d’ordre à la fois artistique et pratique. Elles partagent toutes une thématique commune en lien avec la musique. Cela se traduit notamment par des visualisations en forme de vinyle, de partition et de piano. D’autres, cependant, ont une apparence somme toute plus classique : camemberts et voronoï. Tous ont toutefois le point commun d'être des visualisations interactives : cliquer, appuyer sur des touches ou aller au-dessus (hover) déclenche un événement.
-Nous avons choisi celles-ci pour des raisons expérimentales : nous découvrons plus concrètement l’usage de D3.js avec ces rendus, mais aussi afin de montrer nos résultats. De plus, il est plus intéressant de s’essayer à des rendus visuels atypiques. C’est également le but de Dear Data, rendre les données visuellement cohérentes et en informer sur sa nature. Bien sûr, dans chaque cas de visualisation, il sera fait mention des données invisibles ou difficilement appréhendables au premier abord. Bien que certaines idées aient dû être abandonnées, nous avons pu, dans les grandes lignes, atteindre l'objectif que nous nous étions fixées avec ces visualisations. 
+Dans le cadre du champ disciplinaire ISH et du champ d’études en musicologie, les données créées à la suite d’un questionnaire allient ces deux disciplines. Comme indiqué précédemment, l’objectif de la création de ces visualisations est d’ordre à la fois artistique et pratique. Toutes partagent une thématique commune en lien avec la musique. Cela se traduit notamment par des visualisations en forme de vinyle, de partition et de piano. D’autres, cependant, ont une apparence somme toute plus classique : camemberts et voronoï. Toutes ces visualisations ont toutefois le point commun d'être interactives : cliquer, appuyer sur des touches ou aller au-dessus (hover) déclenche un événement.
+Nous avons choisi celles-ci pour des raisons expérimentales : nous découvrons plus concrètement l’usage de D3.js avec ces rendus, mais aussi afin de montrer nos résultats. De plus, il est plus intéressant de s’essayer à des rendus visuels atypiques. C’est également l'objectif du livre *Dear Data*, rendre les données visuellement cohérentes et en informer sur leur nature. Bien entendu, dans chaque cas de visualisation, il sera fait mention des données invisibles ou difficilement appréhendables au premier abord. Bien que certaines idées aient dû être abandonnées, nous avons pu, dans les grandes lignes, atteindre l'objectif que nous nous étions fixé avec ces visualisations.
 
 ## 1) Camembert:  (fichiers c.html et c2.js)
 Celui-ci est beaucoup moins poussé que les autres visualisations. Tout d’abord, on remarquera qu’en passant la souris sur un bout de camembert (en hoover), le son démarre (il ne faut pas hésiter à cliquer sur la page pour que le son se débloque). Il affiche les pourcentages de types d’instruments joués (cordes, vents, percussions, chants, autre). Ils ont été codés avec des valeurs numériques de sorte qu’ils soient plus facilement exploitables. Par exemple, 1 est égal à un instrument à corde. Non seulement du son sort des arcs respectifs du camembert, mais la liste des instruments joués s'affiche également. Chaque ligne correspond à une personne. 
