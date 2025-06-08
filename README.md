@@ -1,4 +1,4 @@
-# Visualisation d'un questionnaire musicale
+# Visualisation d'un questionnaire musical
 
 L’objectif de ce travail de visualisations est d’illustrer les données récoltées durant le questionnaire et de les mettre en perspective. Le questionnaire porte en lui-même sur les pratiques musicales des répondants ainsi que sur d’autres questions connexes telles que les difficultés d’apprentissage et leur éventuelle volonté d'apprendre à jouer ou à chanter via des cours en ligne.
 
