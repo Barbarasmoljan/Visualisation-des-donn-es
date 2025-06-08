@@ -97,11 +97,16 @@ La Sonothèque:
 ## 4) Vinyle interactif 
 
 Il s’agit d’une visualisation interactive réalisée en d3.js, représentant un vinyle animé. Ce dernier affiche 111 réponses réparties en cinq catégories d’âges : - 18 ans, 18 à 29 ans, 30 à 44 ans, 45 à 60 ans et plus de 60 ans. Chaque catégorie d’âges est associée à une zone colorée sur le vinyle, permettant d’afficher le nombre de personnes et le pourcentage lorsqu’on clique sur une couleur.
+
 Une description et des instructions pour utilisateur.ice.s figurent en haut de l’écran de visualisation et résument brièvement de quoi il s’agit et comment interagir avec la visualisation. Le texte écrit est également animé. En effet, si on passe, sans cliquer avec la « souris » sur le texte, celui-ci change de couleur et s’anime. Les émoticônes qui ont été rattachés au texte ont été prise de la libraire Openmoji.org. 
+
 Lorsqu’on sélectionne une zone, le vinyle s’anime en tournant dans le sens des aiguilles d’une montre, accompagnée d’une musique. Le premier clic active le vinyle, affiche les réponses et démarre le son. Un second clic arrête la rotation du vinyle et de la musique. On peut ainsi changer de zone en cliquant une nouvelle fois sur une autre couleur pour découvrir une nouvelle catégorie d’âge, ses données et une autre musique associée à la nouvelle catégorie sectionnée. Les résultats sont affichés sur l’écran sous forme de texte et situés en dessous du vinyle.
+
 La forme du vinyle s’inspire d’un « donut » ou cercle avec un trou central, rappelant le type de visualisation en « camembert » , mais avec un espace central pour imiter un vinyle. Au niveau esthétique, deux images en PNG : un chien et un gramophone, ont été placées au centre. Ces images font références et sont un clin d’œil au logo emblématique de His Master’s Voice (HMV) et qui est à l’origine une œuvre de l’artiste anglais Francis Barraud. Le logo a été repris par la société Gramophone Group (Future EMI). Sans en copier exactement le logo pour respecter les droits d’auteur, les images utilisés ont été extraites de la libraire d’images disponibles sur le site Pixabay.
 Afin que les deux images se superposent mais restent chacune visibles, nous avons réajusté leur degré d’opacité dans le code.
+
 Au niveau du rendu visuel, l’image du gramophone reste statique et au centre, tandis que celle du chien tourne dès le vinyle est activé. A ces deux images, un texte « Mon Vinyle » a été ajouté en haut au centre, renforçant l’effet visuel souhaité. 
+
 Pour simuler l’aspect d’un véritable vinyle, une aiguille (needle) composée d’un rectangle et de deux petits cercles à son extrémité a été ajouté. Cette aiguille s’active lors du clic sur une zone. Enfin, en arrière-plan, des notes musiques animées ont été intégrée et qui montent de façon fluide pour renforcer l’ambiance musicale de la visualisation. 
 
 ## Crédits
