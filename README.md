@@ -115,6 +115,8 @@ Une des limites de ce type de visualisation concerne la difficulté de pouvoir e
 
 Les images du chien et gramophone proviennent du site internet suivant : https://pixabay.com/fr/
 
+Emoticônes: https://openmoji.org
+
 Musique par tranches d'âge :
 
 - Moins de 18 ans : https://pixabay.com/fr/music/search/2000s%20%20pop%20music/?pagi=2
