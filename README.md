@@ -8,15 +8,15 @@ L’objectif de ce travail de visualisations est d’illustrer les données réc
 
 ## Contexte du sondage
 
-Pour créer le sondage, l’idée était de comprendre le parcours musical des gens, en se focalisant tout particulièrement sur les points suivants : les besoins en musique, les motivations des gens et les obstacles rencontrés par ceux qui débutent, ou souhaitent reprendre ou approfondir une pratique musicale. À cet effet, un sondage a été créé sur *Google Forms*, puis partagé pour collecter les témoignages. 
+Pour créer le sondage, l’idée était de comprendre le parcours musical des gens, en se focalisant tout particulièrement sur les points suivants : les besoins en musique, les motivations des gens et les obstacles rencontrés par ceux qui débutent, ou souhaitent reprendre ou approfondir une pratique musicale. À cet effet, un sondage a été créé sur *Google Forms*, puis partagé afin de recueillir les témoignages. 
 
-Après avoir récolté les réponses, on a par la suite extrait des exemples concernant les difficultés ressenties vis-à-vis de leur pratique musicale. Ceci dans le but de pouvoir développer ultérieurement un programme pédagogique en ligne qui puisse cibler une problématique qui existe chez certaines personnes.
+Après avoir récolté les réponses, des exemples concernant les difficultés ressenties vis-à-vis de la pratique musicale ont été extraits. Ceci dans le but de pouvoir développer ultérieurement un programme pédagogique en ligne pour cibler une problématique qui existe chez certaines personnes.
 
-Le questionnaire a été créé de manière anonymisée, puis transmis, dans un premier temps, à des connaissances par *Whatsapp* et par e-mails. Il a ensuite été relayé plus loin. Il s’agissait principalement de cibler des personnes majeures et francophones. Que les répondants soient des musiciens professionnels ou non, ou qu'ils pratiquent ou non la musique régulièrement, l'objectif est de mettre en lumière des parcours variés. Afin d’obtenir un maximum de réponses, le sondage a également été posté sur des forums de musique tels que Audio Fanzine.
+Le questionnaire a été conçu de manière anonymisée, puis transmis, dans un premier temps, à des connaissances par *Whatsapp* et par e-mails. Il a ensuite été relayé plus loin. Il s’agissait principalement de cibler des personnes majeures et francophones. Que les répondants soient des musiciens professionnels ou non, ou qu'ils pratiquent ou non la musique régulièrement, l'objectif est de mettre en lumière des parcours variés. Afin d’obtenir un maximum de réponses, le sondage a également été posté sur des forums de musique tels que *Audio Fanzine*.
 
-La collecte des réponses a duré environ mois, soit environ 4 semaines, ce qui a donné lieu à 111 réponses. Une fois le sondage terminé, un fichier .csv a été produit à partir de ces données afin de pouvoir les traiter et de les visualiser par la suite.
+La collecte des réponses a duré environ un mois, soit environ quatre semaines, et a donné lieu à 111 réponses. Une fois le sondage terminé, un fichier .csv a été produit à partir de ces données afin de pouvoir les traiter et de les visualiser par la suite.
 
-Nos données comportent majoritairement des éléments de réponses catégorielles. Certaines réponses étaient à choix, mais d’autres permettaient au répondant d'ajouter une réponse écrite. Pour ce rendu, nous vous proposons six visualisations s'appuyant pleinement sur ces données. Toutes comportent une certaine forme d’interaction que nous expliciterons pour chacune d’entre elles. Concernant la qualité des données, mise à part quelques corrections qui ont dû être apportées au fichier .csv, on peut dire que l’échantillonnage est plutôt large pour un questionnaire à petite échelle. Nous avons obtenu 111 réponses. Même si certaines des réponses ont été interrompues en cours de route, ces dernières restent précieuses. Il peut bien sûr y avoir des biais dans les réponses, car il s'agit de données concernant l’être humain et ses habitudes et usages musicaux.
+Nos données comportent majoritairement des éléments de réponses catégorielles. Si certaines réponses étaient à choix, mais d’autres permettaient au répondant d'ajouter une réponse écrite. Pour ce rendu, nous vous proposons six visualisations qui s'appuient pleinement sur ces données. Toutes comportent une certaine forme d’interaction que nous expliciterons pour chacune d’entre elles. Concernant la qualité des données, mise à part quelques corrections qui ont dû être apportées au fichier .csv, on peut dire que l’échantillonnage est plutôt large pour un questionnaire à petite échelle. Nous avons obtenu 111 réponses. Même si certaines des réponses ont été interrompues en cours de route, ces dernières restent précieuses. Il peut bien sûr y avoir des biais dans les réponses, car il s'agit de données concernant l’être humain et ses habitudes et usages musicaux.
 
 
 ## Sur la DATA, en détail
@@ -40,9 +40,9 @@ Dans le fichier .csv, on retrouve l’ensemble des données des réponses des 11
 
 -Intérêts : Intérêt à apprendre.
 
--Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances apprises?
+-Projet : Est-ce que les répondants souhaiteraient produire des projets avec les connaissances acquises?
 
--Accompagnement : Quel type d'accompagnement les répondants souhaiteraient-ils?
+-Accompagnement : Quel type d'accompagnement les répondants souhaitent-ils?
 
 -CoursEnLigne : Que souhaitent-ils apprendre?
 
@@ -54,7 +54,7 @@ Dans le fichier .csv, on retrouve l’ensemble des données des réponses des 11
 
 -Remarque Supplémentaire : Réponses supplémentaires des répondants.
 
--TypeInstrument : Code numérique pour la variable Instrument. Chaque numéro correspond à un type d’instrument (par ex.: instruments à cordes.).
+-TypeInstrument : Code numérique pour la variable Instrument. Chaque numéro correspond à un type d’instrument (par exemple : instruments à cordes).
 
 ## Totalité des variables des données du fichier CSV
 "Age","Practice","Instrument","Apprentissage","Difficultés","Aide","StyleMusic","Intérêts","Projet","Accompagnement","CoursEnLigne","Avantages","DifficultésLearn","IntérêtFormationEnLigne","RemarqueSupplémentaire","TypeInstrument"
