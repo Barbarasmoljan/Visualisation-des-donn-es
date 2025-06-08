@@ -105,7 +105,7 @@ Lorsqu’on sélectionne une zone, le vinyle s’anime en tournant dans le sens 
 La forme du vinyle s’inspire d’un « donut » ou cercle avec un trou central, rappelant le type de visualisation en « camembert » , mais avec un espace central pour imiter un vinyle. Au niveau esthétique, deux images en PNG : un chien et un gramophone, ont été placées au centre. Ces images font références et sont un clin d’œil au logo emblématique de His Master’s Voice (HMV) et qui est à l’origine une œuvre de l’artiste anglais Francis Barruad. Le logo a été repris par la société Gramophone Group (Future EMI). Sans en copier exactement le logo pour respecter les droits d’auteur, les images utilisés ont été extraites de la libraire d’images disponibles sur le site Pixabay.
 Afin que les deux images se superposent mais restent chacune visibles, nous avons réajusté leur degré d’opacité dans le code.
 
-Au niveau du rendu visuel, l’image du gramophone reste statique et au centre, tandis que celle du chien tourne dès le vinyle est activé. A ces deux images, un texte « Mon Vinyle » a été ajouté en haut au centre, renforçant l’effet visuel souhaité. 
+Au niveau du rendu visuel, l’image du gramophone reste statique et au centre, tandis que celle du chien tourne dès que le vinyle est activé. A ces deux images, un texte « Mon Vinyle » a été ajouté en haut au centre, renforçant l’effet visuel souhaité. 
 
 Pour simuler l’aspect d’un véritable vinyle, une aiguille (needle) composée d’un rectangle et de deux petits cercles à son extrémité a été ajouté. Cette aiguille s’active lors du clic sur une zone. Enfin, en arrière-plan, des notes musiques animées ont été intégrée et qui montent de façon fluide pour renforcer l’ambiance musicale de la visualisation. 
 
